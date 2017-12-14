@@ -1,6 +1,6 @@
 import window from 'global/window';
 import videojs from 'video.js';
-import dashjs from 'dashjs';
+import dashjs from '@discovery/dashjs';
 import setupAudioTracks from './setup-audio-tracks';
 import setupTextTracks from './setup-text-tracks';
 

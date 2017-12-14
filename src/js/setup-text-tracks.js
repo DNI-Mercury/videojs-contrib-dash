@@ -1,4 +1,4 @@
-import dashjs from 'dashjs';
+import dashjs from '@discovery/dashjs';
 import videojs from 'video.js';
 
 function find(l, f) {
