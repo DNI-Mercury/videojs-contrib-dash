@@ -27,7 +27,14 @@
     "test": "karma start test/karma.config.js",
     "preversion": "npm test",
     "version": "npm run build",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "bump-major": "./node_modules/npmversion/bin/npmversion --increment major",
+    "bump-minor": "./node_modules/npmversion/bin/npmversion --increment minor",
+    "bump-patch": "./node_modules/npmversion/bin/npmversion --increment patch",
+    "bump-major-alpha": "./node_modules/npmversion/bin/npmversion --increment premajor --preid alpha",
+    "bump-minor-alpha": "./node_modules/npmversion/bin/npmversion --increment preminor --preid alpha",
+    "bump-patch-alpha": "./node_modules/npmversion/bin/npmversion --increment prepatch --preid alpha",
+    "bump-prerelease": "./node_modules/npmversion/bin/npmversion --increment prerelease --preid alpha"
   },
   "keywords": [
     "videojs",
@@ -73,6 +80,7 @@
     "karma-qunit": "^1.2.1",
     "karma-spec-reporter": "0.0.31",
     "npm-run-all": "^1.2.0",
+    "npmversion": "^1.6.2",
     "qunitjs": "^2.0.1",
     "uglify-js": "^2.5.0",
     "webpack": "^1.13.2"
