@@ -1,5 +1,5 @@
 {
-  "name": "@discovery/videojs-contrib-dash",
+  "name": "@discovery-dni/videojs-contrib-dash",
   "description": "A Video.js source-handler providing MPEG-DASH playback.",
   "main": "es5/videojs-dash.js",
   "repository": {
